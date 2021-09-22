@@ -6,3 +6,45 @@
 .active {
     color: red;
 }
+
+input[type="checkbox"] {
+    height: 16px;
+    width: 16px;
+}
+
+.done {
+    background-color: #00BA76;
+    border: solid 2px #00BA76;
+}
+
+.checkmark {
+    display: inline-block;
+    width: 40px;
+    height: 4px;
+    position: absolute;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+.checkmark_stem {
+    position: absolute;
+    width:2px;
+    height:9px;
+    background-color:rgb(255, 255, 255);
+    left:11px;
+    top:6px;
+}
+
+.checkmark_kick {
+    position: absolute;
+    width:5px;
+    height:2px;
+    background-color:rgb(255, 255, 255);
+    left:8px;
+    top:13px;
+}
+
+.cross {
+    text-decoration: line-through;
+}
