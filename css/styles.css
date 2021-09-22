@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind componenets;
+@tailwind utilities;
+
+
+.active {
+    color: red;
+}
